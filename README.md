@@ -212,10 +212,15 @@ All you have to do is:
 # Chapter 4: Conclusion
 
   For I / O tasks, multithreading can improve performance.
+  
   For I / O tasks, multiprocessing can also improve performance, but the overhead tends to be higher than multithreading.
+  
   The existence of the Python GIL makes it clear that only one thread can be running in a program at any given time.
+  
   For CPU-bound tasks, using multithreading can degrade performance.
+  
   For CPU-bound tasks, using multiprocessing can improve performance.
+  
   The wizards are amazing!
   
   
